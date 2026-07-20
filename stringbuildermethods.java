@@ -28,7 +28,7 @@ public class stringbuildermethods {
         // Capacity method
         System.out.println("Capacity: " + sb.capacity()); // Output: Capacity: 16
 
-    // CharAt method
+        // CharAt method
         System.out.println("Character at index 0: " + sb.charAt(0)); // Output: Character at index 0: d
         
         // SetCharAt method
