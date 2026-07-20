@@ -13,7 +13,6 @@ public class Twopointer {
             left++;
             right--;
         }
-
         System.out.println(new String(chars));
     }
 }
