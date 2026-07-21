@@ -3,15 +3,15 @@ public class Twopointer {
         String str = "hello";
         char[] chars = str.toCharArray();
 
-        int left = 0;
-        int right = chars.length - 1;
+        int i = 0;
+        int j = chars.length - 1;
 
-        while (left < right) {
-            char temp = chars[left];
-            chars[left] = chars[right];
-            chars[right] = temp;
-            left++;
-            right--;
+        while (i < j) {
+            char temp = chars[i];
+            chars[i] = chars[j];
+            chars[j] = temp;
+            i++;
+            j--;
         }
         System.out.println(new String(chars));
     }
